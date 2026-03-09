@@ -48,7 +48,7 @@ class Player2 {
 			forward=true;
 		}else {//standing
 			xVelocity=0; 
-			}
+			} 
 			x+=xVelocity;
 		if(jump&&onGround) {//jumping
 			yVelocity-=JUMP_POWER;

@@ -16,4 +16,4 @@ public class GameLauncher2{
         window.add(gamePanel);
         window.setVisible(true);
     }
-}
+} 

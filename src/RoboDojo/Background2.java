@@ -36,7 +36,7 @@ public class Background2 extends JPanel implements ActionListener, KeyListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        frame++;
+        frame++; 
         if (shakeFrame > 0) {
             shakeX = (int) (Math.random() * 30 - 15);
             shakeY = (int) (Math.random() * 30 - 15);
